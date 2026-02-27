@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sheetam Biswal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Background blobs -->
+  <div class="bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="header glass">
+    <div class="logo"><span>Sheetam Biswal</span></div>
+
+    <nav class="nav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav glass" id="mobileNav">
+    <a href="#home" class="m-link">Home</a>
+    <a href="#about" class="m-link">About</a>
+    <a href="#skills" class="m-link">Skills</a>
+    <a href="#projects" class="m-link">Projects</a>
+    <a href="#contact" class="m-link">Contact</a>
+  </div>
+
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Hero -->
+    <section id="home" class="section hero glass">
+      <div class="hero-left">
+        <p class="tag">Fullstack Engineer • DevOps • AI Enthusiast</p>
+        <h1>
+          Hi, I’m <span class="accent">SHEETAM BISWAL</span><br />
+          I build scalable & intelligent web solutions.
+        </h1>
+
+        <p class="subtext">
+          I specialize in building robust fullstack applications, streamlining deployments with DevOps, and integrating
+          modern AI technologies.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/sheetam522" class="chip" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/sheetam-biswal-68593b1a0" class="chip" target="_blank"
+            rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.instagram.com/__.sheetam.__/" class="chip" target="_blank"
+            rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="profile-card glass">
+          <div class="profile-pic">
+            <img src="https://avatars.githubusercontent.com/u/189276655?v=4" alt="Sheetam Biswal" />
+          </div>
+          <h3>SHEETAM BISWAL</h3>
+          <p>Fullstack Engineer • DevOps • AI </p>
+          <div class="stats">
+            <div class="stat">
+              <span class="num">12+</span>
+              <span class="label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="num">2+</span>
+              <span class="label">Years</span>
+            </div>
+            <div class="stat">
+              <span class="num">5+</span>
+              <span class="label">Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section glass">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-desc">
+        I’m a Fullstack Engineer dedicated to crafting scalable, high-performance applications. I bring together deep
+        backend architecture, seamless frontend experiences, robust CI/CD pipelines, and emerging AI capabilities to
+        deliver complete, modern solutions.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card glass">
+          <h3>Fullstack Architecture</h3>
+          <p>
+            Designing and building complete, end-to-end applications from responsive UI to resilient databases.
+          </p>
+        </div>
+
+        <div class="about-card glass">
+          <h3>DevOps & Cloud</h3>
+          <p>
+            Streamlining delivery through automated CI/CD pipelines, containerization, and reliable cloud
+            infrastructure.
+          </p>
+        </div>
+
+        <div class="about-card glass">
+          <h3>AI Integration</h3>
+          <p>
+            Enhancing modern applications by integrating AI functionality and exploring evolving machine learning tools.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section glass">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-desc">
+        Here are my main skills and tools I work with.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill glass">
+          <div class="skill-top">
+            <span>Frontend (React, JS, HTML/CSS)</span>
+            <span class="percent">90%</span>
+          </div>
+          <div class="bar">
+            <div class="fill" style="width:90%"></div>
+          </div>
+        </div>
+
+        <div class="skill glass">
+          <div class="skill-top">
+            <span>Backend (Node.js, DBs, APIs)</span>
+            <span class="percent">85%</span>
+          </div>
+          <div class="bar">
+            <div class="fill" style="width:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill glass">
+          <div class="skill-top">
+            <span>DevOps (Docker, CI/CD, Cloud)</span>
+            <span class="percent">75%</span>
+          </div>
+          <div class="bar">
+            <div class="fill" style="width:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill glass">
+          <div class="skill-top">
+            <span>AI Integration & ML Concepts</span>
+            <span class="percent">65%</span>
+          </div>
+          <div class="bar">
+            <div class="fill" style="width:65%"></div>
+          </div>
+        </div>
+
+        <div class="skill glass">
+          <div class="skill-top">
+            <span>System Architecture</span>
+            <span class="percent">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill" style="width:80%"></div>
+          </div>
+        </div>
+
+        <div class="skill glass">
+          <div class="skill-top">
+            <span>Python / Go / Java</span>
+            <span class="percent">80%</span>
+          </div>
+          <div class="bar">
+            <div class="fill" style="width:80%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section glass">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-desc">
+        Some of my featured work (hover to see effects).
+      </p>
+
+      <div class="projects-grid">
+
+        <div class="project glass">
+          <div class="project-img p1"></div>
+          <div class="project-body">
+            <h3>Portfolio Website</h3>
+            <p>A modern responsive portfolio with animations.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small ghost">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project glass">
+          <div class="project-img p2"></div>
+          <div class="project-body">
+            <h3>UI Dashboard</h3>
+            <p>Glassmorphism dashboard UI concept.</p>
+            <div class="project-tags">
+              <span>UI</span><span>Figma</span><span>CSS</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small ghost">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project glass">
+          <div class="project-img p3"></div>
+          <div class="project-body">
+            <h3>Weather App</h3>
+            <p>Weather app with clean UI and API integration.</p>
+            <div class="project-tags">
+              <span>API</span><span>JS</span><span>UX</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn small">Live</a>
+              <a href="#" class="btn small ghost">Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section glass">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-desc">
+        Want to work together? Send me a message.
+      </p>
+
+      <form class="contact-form glass" id="contactForm">
+        <div class="row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
+        </div>
+        <textarea rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+      <p>© <span id="year"></span> sheetam • Built with Glassmorphism ✨</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
